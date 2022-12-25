@@ -5,6 +5,10 @@ import List from './generic/List';
 import ListItem from './generic/ListItem';
 import { nanoid } from 'nanoid';
 
+/**
+ * Формирует блок виджетов
+ */
+
 export default function BlockOfRecommendations({program, visited, broadcast }) {
   return (
     <div className='row'>
