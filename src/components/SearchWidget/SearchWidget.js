@@ -1,9 +1,10 @@
 import React from 'react';
-import Link from './generic/Link';
-import List from './generic/List';
-import ListItem from './generic/ListItem';
-import Input from './generic/Input';
-import Button from './generic/Button';
+import './SearchWidget.css';
+import Link from '../generic/Link';
+import List from '../generic/List';
+import ListItem from '../generic/ListItem';
+import Input from '../generic/Input';
+import Button from '../generic/Button';
 import { nanoid } from 'nanoid';
 
 /**
